@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _check_separator, symObjAddr: 0x0, symBinAddr: 0x100002FC0, symSize: 0xA0 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _func_call1, symObjAddr: 0x23C0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _cycles1, symObjAddr: 0x23C4, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _func_call2, symObjAddr: 0x23C8, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _cycles2, symObjAddr: 0x23CC, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0xB4, offset: 0xB4, size: 0x8, addend: 0x0, symName: _check_separator, symObjAddr: 0x0, symBinAddr: 0x100002FC0, symSize: 0xA0 }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _count_strings, symObjAddr: 0xA0, symBinAddr: 0x100003060, symSize: 0x18C }
+  - { offsetInCU: 0x14A, offset: 0x14A, size: 0x8, addend: 0x0, symName: _ft_strlen_sep, symObjAddr: 0x22C, symBinAddr: 0x1000031EC, symSize: 0xB0 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _ft_word, symObjAddr: 0x2DC, symBinAddr: 0x10000329C, symSize: 0xD4 }
+  - { offsetInCU: 0x1EE, offset: 0x1EE, size: 0x8, addend: 0x0, symName: _ft_split1, symObjAddr: 0x3B0, symBinAddr: 0x100003370, symSize: 0x1D0 }
+  - { offsetInCU: 0x240, offset: 0x240, size: 0x8, addend: 0x0, symName: _ft_split2, symObjAddr: 0x580, symBinAddr: 0x100003540, symSize: 0x290 }
+  - { offsetInCU: 0x2A1, offset: 0x2A1, size: 0x8, addend: 0x0, symName: _ft_get_word_count, symObjAddr: 0x810, symBinAddr: 0x1000037D0, symSize: 0x16C }
+  - { offsetInCU: 0x2E5, offset: 0x2E5, size: 0x8, addend: 0x0, symName: _ft_get_word, symObjAddr: 0x97C, symBinAddr: 0x10000393C, symSize: 0xFC }
+  - { offsetInCU: 0x345, offset: 0x345, size: 0x8, addend: 0x0, symName: _generate_long_input, symObjAddr: 0xA78, symBinAddr: 0x100003A38, symSize: 0xF0 }
+  - { offsetInCU: 0x3C1, offset: 0x3C1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xB68, symBinAddr: 0x100003B28, symSize: 0x244 }
+  - { offsetInCU: 0x431, offset: 0x431, size: 0x8, addend: 0x0, symName: _ft_get_word_len, symObjAddr: 0xDAC, symBinAddr: 0x100003D6C, symSize: 0xA4 }
+...
